@@ -1,0 +1,96 @@
+/* Metric */
+#firstSectionMetric {
+	display: flex;
+	gap: 24px;
+}
+
+.firstSectionMetric {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: var(--BodyS);
+}
+
+#textKG, #textCM {
+	position: absolute;
+	top: 55px;
+	font-size: var(--HeadingM);
+	color: rgba(52, 95, 246, 1);
+	font-weight: 600;
+}
+
+#textCM {
+	left: 185px;
+}
+
+#textKG {
+	right: 20px;
+}
+
+/* Imperial */
+#firstSectionImperial {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.firstSectionImperial {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: var(--BodyS);
+}
+
+.imperialInput {
+	display: flex;
+	gap: 24px;
+	position: relative;
+}
+
+.imperialInput span {
+	position: absolute;
+	top: 29.5%;
+	color: var(--Blue);
+	font-size: var(--HeadingM);
+	font-weight: 600;
+	letter-spacing: -0.05em;
+	line-height: 29px;
+}
+
+#ft, #st {
+	right: 57.5%;
+}
+
+#in, #lbs {
+	right: 5%;
+}
+
+@media screen and (max-width: 1400px) {
+	.firstSectionMetric {
+		flex-grow: 1;
+	}
+	.firstSectionMetric input {
+		max-width: 100%;
+		min-width: 100%;
+	}
+	#textCM, #textKG {
+		left: unset;
+		right: 10%;
+	}
+	.imperialInput input {
+		max-width: 48.1%;
+		min-width: 48.1%;
+	}
+	#ft, #st {
+		right: 57.2%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#firstSectionMetric {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+}

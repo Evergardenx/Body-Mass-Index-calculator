@@ -1,0 +1,113 @@
+#secondSection {
+	margin: 0 140px 96px;
+	width: 75.5%;
+	height: 533px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#secondSection img[alt="manEating"] {
+	width: 564px;
+	height: 533px;
+}
+
+#secondSection-1 {
+	margin: 0 0 40px 131px;
+}
+
+#secondSection-1 h2 {
+	margin-bottom: 35px;
+	font-size: var(--HeadingL);
+	letter-spacing: -0.05em;
+}
+
+@media screen and (max-width: 1400px) {
+	#secondSection {
+		margin: 30px 0 0;
+		width: 100%;
+		height: unset;
+	}
+	#secondSection img[alt="manEating"] {
+		height: unset;
+		width: 56.6%;
+		position: relative;
+		left: -38px;
+	}
+	#secondSection-1 {
+		margin: 0;
+		flex-grow: 1;
+		flex-basis: 20px;
+		height: 350px;
+	}
+	#secondSection-1 h2 {
+		margin-bottom: 32px;
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 1010px) {
+	#secondSection {
+		margin-top: 75px;
+	}
+}
+
+@media screen and (max-width: 1010px) {
+	#secondSection {
+		margin-top: 75px;
+	}
+}
+
+@media screen and (max-width: 775px) {
+	#secondSection {
+		margin: 150px 0 0;
+		align-items: center;
+		flex-direction: column;
+	}
+	#secondSection img[alt="manEating"] {
+		height: unset;
+		width: 100%;
+		position: unset;
+		left: unset;
+		margin-bottom: 48px;
+	}
+	#secondSection-1 {
+		flex-grow: unset;
+		flex-basis: unset;
+		width: 90%;
+		height: unset;
+	}
+	#secondSection-1 h2 {
+		margin-bottom: 32px;
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	#secondSection {
+		margin-top: 220px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#secondSection {
+		margin-top: 350px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#secondSection {
+		margin-top: 430px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	#secondSection {
+		margin-top: 550px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	#secondSection {
+		margin-top: 600px;
+	}
+}

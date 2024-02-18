@@ -1,0 +1,79 @@
+:root {
+  /* Colors */
+  --Blue: #345FF6;
+  --Gunmetal: #253347;
+  --DarkElectricBlue: #5E6E85;
+  --Border: #D8E2E7;
+  --PureWhite: #FFFFFF;
+
+  /* Font Family */
+  --Regular: 400;
+  --SemiBold: 600;
+
+  /* Font Size */
+  --HeadingXL: 64px;
+  --HeadingL: 48px;
+  --HeadingM: 24px;
+  --HeadingS: 20px;
+
+  --BodyM: 16px;
+  --BodyS: 14px;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--Regular);
+  font-size: var(--BodyM);
+  line-height: 150%;
+  color: var(--DarkElectricBlue);
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--Gunmetal);
+  font-weight: var(--SemiBold);
+  line-height: 110%;
+}
+
+input[type="text"] {
+  font-weight: var(--Regular);
+  height: 69px;
+	max-width: 238px;
+	letter-spacing: -0.05em;
+	font-size: var(--HeadingM);
+	border: 1px solid var(--Border);
+	border-radius: 12px;
+	padding: 20px 24px;
+  font-weight: 600;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+img[alt="leftCurvedLine"] {
+  position: absolute;
+  right: 16%;
+  top: 749px;
+}
+
+img[alt="rightCurvedLine"] {
+	position: absolute;
+	left: 305px;
+	top: 2203px;
+}
+
+@media screen and (max-width: 1350px) {
+  img[alt="leftCurvedLine"] {
+    display: none;
+  }
+  img[alt="rightCurvedLine"] {
+    display: none;
+  }
+}
